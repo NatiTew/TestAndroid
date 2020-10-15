@@ -7,14 +7,27 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+<!--    <TextView-->
+<!--        android:id="@+id/text_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hello"-->
+<!--        android:textSize="15pt"/>-->
+    <EditText
+        android:id="@+id/itemEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hello"
-        android:textSize="15pt"/>
+        android:layout_height="wrap_content"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Good bye"/>
+        android:text="Save"
+        android:onClick="saveButton"/>
+
+    <ListView
+        android:id="@+id/itemListView"
+        android:layout_width="164dp"
+        android:layout_height="match_parent">
+
+    </ListView>
 
 </LinearLayout>
